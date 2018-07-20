@@ -2,3 +2,4 @@ git clone - clones the repository to your local
 git status - shows the difference between the local file created and the master repository
 git add <filename> - initiates the file to github
 git add .   (or)  git add -A adds everything to the repo
+git remote set-url origin <url>
