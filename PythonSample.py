@@ -10,7 +10,7 @@ class Chicken(Animal):
     def SetType(self, Type):
         print("Sorry, {0} will always be a {1}".format(self.Name, Type))
     def MakeSound(self):
-        print("{0} says Cluck, Cluck,Cluck!".format(self.Name))
+        print("{0} says Cluck,Cluck!".format(self.Name))
 
 
 MyChicken = Chicken("sally",2)
